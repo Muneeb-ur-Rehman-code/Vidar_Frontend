@@ -3,7 +3,7 @@ import { Send, FileText, ThumbsUp, ThumbsDown, RefreshCw, X, TrendingUp, Activit
 
 const IA = () => {
   // ✅ FIXED: Correct Backend URL
-  const API_BASE_URL = 'http://31.220.76.227:8002';
+  const API_BASE_URL = '.api';
 
   const [messages, setMessages] = useState([
     {
