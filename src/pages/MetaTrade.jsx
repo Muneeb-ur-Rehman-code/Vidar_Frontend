@@ -16,7 +16,7 @@ const MetaTrade = () => {
   const [historicalSignals, setHistoricalSignals] = useState(null);
 
   // API Base URL - adjust according to your backend
-  const API_BASE_URL = 'http://31.220.76.227:8001/';
+  const API_BASE_URL = 'http://31.220.76.227:8001';
 
   // Load saved connection on component mount
   useEffect(() => {
